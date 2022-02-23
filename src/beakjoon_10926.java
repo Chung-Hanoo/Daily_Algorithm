@@ -1,7 +1,6 @@
 import java.io.*;
-import java.util.*;
 
-public class num_10926 {
+public class beakjoon_10926 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
