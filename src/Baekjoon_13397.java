@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Beakjoon_13397 {
+public class Baekjoon_13397 {
     public static void main(String[] args) {
         int N, M;//N 숫자개수, M 구간개수
         int[] arr = new int[5000];//총 구간
