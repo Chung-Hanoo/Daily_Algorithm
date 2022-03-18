@@ -8,9 +8,9 @@ public class Baekjoon_2581 {
         int M = Integer.parseInt(br.readLine());
         int N = Integer.parseInt(br.readLine());
 
-        int M_primes_sum = 0;
-        int N_primes_sum = 0;
-        int N_primes_min = -1;
+        int M_primes_sum = 0; // M까지 소수 합
+        int N_primes_sum = 0; // N까지 소수 합
+        int N_primes_min = -1; // M과 N 사이에 존재하는 소수 중 가장 작은 소수
 
         for (int i = 1; i <= N; i++) {
             if (isPrime(i)) {
@@ -32,6 +32,7 @@ public class Baekjoon_2581 {
         bw.close();
     }
 
+    // 소수 판별 함수
     public static boolean isPrime(int num) {
         if (num == 1) {
             return false;
