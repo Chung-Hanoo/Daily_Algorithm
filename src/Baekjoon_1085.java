@@ -7,8 +7,6 @@ public class Baekjoon_1085 {
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int[] data = new int[4];
-        int shortest = 0;
         // x,y는 현재 위치
         // w,h는 직사각형 크기
         // 0:x, 1:y, 2:w, 3:h
