@@ -1,6 +1,6 @@
 function solution(rectangle, characterX, characterY, itemX, itemY) {
   let graph = Array.from({ length: 102 }, () =>
-    Array.from({ length: 101 }, () => 0)
+    Array.from({ length: 102 }, () => 0)
   );
 
   // 그래프 업데이트
